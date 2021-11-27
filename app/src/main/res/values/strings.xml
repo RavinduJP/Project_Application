@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Smart farming</string>
+    <string name="select_loccation_by_manually">Select Loccation By Manually</string>
+    <string name="upload_location">Upload Location</string>
+    <string name="province">Province</string>
+    <string name="ditrict">Ditrict</string>
+    <string name="grama_niladhari_division">Grama Niladhari Division</string>
+
+    <string-array name="Province">
+        <item> Nothern </item>
+        <item> North Central </item>
+        <item> Central </item>
+        <item> North Western </item>
+        <item> Sabaragamuwa </item>
+        <item> Uva </item>
+        <item> Southern </item>
+        <item> Western </item>
+        <item> Eastern </item>
+
+
+    </string-array>
+</resources>

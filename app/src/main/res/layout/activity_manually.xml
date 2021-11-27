@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".Manually">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:text="@string/select_loccation_by_manually"
+        android:textAlignment="center"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/ProvinceView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="220dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:hint="province"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/DistrictView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="300dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:hint="@string/ditrict"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/GNDivisionView"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="380dp"
+        android:background="@android:drawable/editbox_background"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:hint="@string/grama_niladhari_division"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/Manuallybutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="240dp"
+        android:layout_marginBottom="40dp"
+        android:text="@string/upload_location" />
+
+
+</RelativeLayout>
