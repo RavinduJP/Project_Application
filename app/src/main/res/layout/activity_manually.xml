@@ -14,7 +14,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="70dp"
-        android:text="@string/select_loccation_by_manually"
+        android:text="@string/select_location_by_manually"
         android:textAlignment="center"
         android:textSize="36sp" />
 
@@ -55,7 +55,7 @@
         android:textSize="20sp" />
 
     <Button
-        android:id="@+id/Manuallybutton"
+        android:id="@+id/ManuallySelectbutton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
