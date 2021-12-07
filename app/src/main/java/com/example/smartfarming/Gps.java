@@ -27,7 +27,7 @@ import java.util.Locale;
 public class Gps extends AppCompatActivity implements LocationListener {
     Button setLocation, UpLocation;
     TextView txtAddress;
-    ImageView imageView;
+    //ImageView imageView;
     LocationManager locationManager;
 
     @Override
