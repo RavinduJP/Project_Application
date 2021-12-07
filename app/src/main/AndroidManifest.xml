@@ -14,12 +14,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".UploadImage"></activity>
+
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyBhiDs8KDwEEPzjG8IZ4sx-JAI_-RFPZ-8" />
 
+        <activity android:name=".UploadImage" />
         <activity android:name=".Manually" />
         <activity android:name=".Gps" />
         <activity android:name=".SelectLocation" />
